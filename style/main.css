@@ -1,0 +1,258 @@
+/* 1220px */
+/* main------------------------------------------------------------------- */
+#visual_bg {
+    background: url(../image/bg1.png) center;
+    background-size:cover;
+    background-attachment:fixed;
+}
+#visual_bg #visual_bg_gra {
+    background: linear-gradient(0deg, #000, transparent 50%);
+    /* background: linear-gradient(360deg, rgba(0,0,0,0.7), transparent 40%) */
+}
+#visual_bg #visual_bg_gra .container {
+    width:1220px; margin:0 auto;
+    padding: 300px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+}
+#visual_bg #visual_bg_gra .container .logo {
+    position:absolute; left:0;top:0;
+    width:50px;
+}
+#visual_bg #visual_bg_gra .container .logo a {}
+#visual_bg #visual_bg_gra .container .logo a img {width:100%;}
+#visual_bg #visual_bg_gra .container .title {margin-bottom:20px;}
+#visual_bg #visual_bg_gra .container .title,
+#visual_bg #visual_bg_gra .container .title em {
+    color:white;
+    line-height:1.3;
+    letter-spacing:-0.02em;
+    font-size:50px;
+}
+#visual_bg #visual_bg_gra .container .title em {font-weight:700;}
+#visual_bg #visual_bg_gra .container .sponsor {}
+#visual_bg #visual_bg_gra .container .sponsor img {}
+#visual_bg #visual_bg_gra .container .question {
+    position:absolute; right:0; bottom:250px;
+}
+#visual_bg #visual_bg_gra .container .question img {}
+/* main2-------------------------------------------------------------- */
+#quiz_bg {
+    background: url(../image/quiz_bg.png) center;
+    padding:100px;
+}
+#quiz_bg .container {
+    width:1220px; margin: 0 auto;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+#quiz_bg .container .left {
+    color:white;
+    margin-left:200px;
+}
+#quiz_bg .container .left #quizFrm {}
+#quiz_bg .container .left #quizFrm fieldset {}
+#quiz_bg .container .left #quizFrm fieldset legend {}
+#quiz_bg .container .left #quizFrm fieldset h1 {
+    text-align: center;
+    font-size:50px;
+    font-weight:700;
+    margin-bottom:30px;
+}
+#quiz_bg .container .left #quizFrm fieldset h2 {
+    font-size:1.3rem;
+    letter-spacing:-0.02em;
+    font-weight:700;
+    margin-bottom:20px;
+}
+#quiz_bg .container .left #quizFrm fieldset ul {}
+#quiz_bg .container .left #quizFrm fieldset ul li {
+    padding-bottom:30px;
+}
+#quiz_bg .container .left #quizFrm fieldset ul li input[name=quiz] {}
+#quiz_bg .container .left #quizFrm fieldset ul li label {font-size:1.3rem;}
+#quiz_bg .container .left #quizFrm fieldset p {
+    text-align: center;
+    background: #222;
+    border-radius: 50px;
+    margin:30px 0 0 ;
+    padding:20px;
+}
+#quiz_bg .container .left #quizFrm fieldset p .quiz_answer {
+    color:white;
+}
+#quiz_bg .container .right {}
+#quiz_bg .container .right p {
+    color:white;
+    text-align: center;
+    font-weight:700;
+    padding:10px;
+}
+#quiz_bg .container .right p img {width:100%}
+/* main3--------------------------------------------------------------------- */
+/* campaigm 통합 ---------------------------------------- */
+.campaign_bg {}
+.campaign_bg .container {width:1220px; margin:0 auto; padding:100px 0;}
+.campaign_bg .container h1,
+.campaign_bg .container h1 > * {    
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height:1.5;}
+/* campaign1~7 배경 모음 */
+.campaign1 {background: url(../image/video_bg.png); }
+.campaign2 {background: url(../image/50_bg.png);}
+.campaign3 {background: #eee;}
+.campaign4 {background: url(../image/50_bg.png);}
+.campaign5 {background: url(../image/wwf.jpg);}
+.campaign6 {background: url(../image/50_bg.png);}
+.campaign7 {background: url(../image/bg2.png);}
+.campaign_bg {background-size:cover; background-position:center;}
+/* campaign 1~7 제목 근접 단락 통일 */
+.campaign_bg .container h1+p {
+    font-size:1.2rem; letter-spacing:-0.02em;
+    line-height:1.6;
+}
+/* campaign 2,4 제목 포인트 ------------------ */
+.campaign_bg .container h1 em {
+    background: white;
+    color: #000; padding:8px 2px ;
+}
+/* campaign1 --------------------------- */
+.campaign_bg {}
+.campaign1 {background: url(../image/video_bg.png);}
+.campaign1 .container {
+    width:1220px; margin:0 auto; padding:100px 0;
+    display:flex;
+    flex-flow:column wrap; align-items: center;
+}
+.campaign1 .container h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height:1.5;
+}
+.campaign1 .container iframe {margin:20px;}
+.campaign1 .container .sponsor {
+    display:block;
+}
+.campaign1 .container .sponsor img {}
+/* campaign2 -------------*/
+.campaign2 .container {}
+.campaign2 .container h1 {color:#fff;}
+.campaign2 .container h1+p {
+    color:#fff;
+    padding:20px 0;
+}
+.campaign2 .container p:last-child {}
+.campaign2 .container p:last-child img {width:100%;}
+/* campaign3-------------- */
+.campaign3 .container {}
+.campaign3 .container h1 {text-align: center;}
+.campaign3 .container h1+p {
+    text-align: center;
+    padding:20px 0 50px;
+}
+.campaign3 .container ul {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+}
+.campaign3 .container ul li {
+    width:32%; /* (100-4)/3  으로 계산한다.*/
+    padding-top:35px;
+    background-size: cover; background-position:center -150px;
+}
+.campaign3 .container ul li:nth-child(1) {background-image:url(../image/28.png);}
+.campaign3 .container ul li:nth-child(2) {background-image:url(../image/27.png);}
+.campaign3 .container ul li:nth-child(3) {background-image:url(../image/332.png);}
+.campaign3 .container ul li h2 {
+    color:#fff;
+    font-size: 3rem;
+    font-weight:600;
+    text-align: center;
+}
+.campaign3 .container ul li p {
+    color:#fff;text-align: center;
+    font-size:1.7rem;
+}
+.campaign3 .container ul li p:nth-child(2) {padding:25px 0 120px;}
+.campaign3 .container ul li p:last-child {
+    color:#000;
+    background: #fff;
+    padding:20px;
+    height:250px;
+    font-size:1.2rem;
+    font-weight:700;
+    line-height: 1.5;
+}
+/* campaign4--------------------------------------------- */
+.campaign4 {}
+.campaign4 .container {}
+.campaign4 .container h1 {color:#fff;padding:20px 0;}
+.campaign4 .container h1 em {
+    color:#000;
+}
+.campaign4 .container p {
+    color:#fff;
+    font-size:1.5rem;
+    font-weight: 600;
+    padding:25px 0;
+}
+.campaign4 .container p img {width:100%}
+/* campaign5--------------------------------------------- */
+.campaign5 {position:relative;}
+.campaign5::before {
+    /* 배경 Rgba 위치 */
+    background: rgba(225,225,225,0.5);
+    content:'';
+    display:inline-flex;
+    width:100%;
+    height:100%;
+    position:absolute; left:0; top:0;
+    z-index:10;
+}
+.campaign5 .container {
+    text-align: center;
+    position:relative; z-index:20;
+}
+.campaign5 .container h1 {}
+.campaign5 .container p  {
+    padding:20px;
+}
+.campaign5 .container p:last-child  {
+    font-size:1.2rem;
+}
+/* campaign6--------------------------------------------- */
+.campaign6 {}
+.campaign6 .container {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    position:relative;
+}
+.campaign6 .container h1 {}
+.campaign6 .container a {}
+.campaign6 ul {
+    width:1200px;
+    margin:0 auto;
+    display:flex;
+}
+.campaign6 ul li {
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-between;
+}
+.campaign6 ul li img {width:100%;}
+.campaign6 ul li p {
+    color:#fff;
+}
+.campaign6 p {
+    color:#fff;
+    position:absolute; bottom:0 ; right:0;
+}
+/* campaign7--------------------------------------------- */
